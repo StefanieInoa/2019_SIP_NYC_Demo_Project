@@ -11,10 +11,9 @@ body {
 	margin: 0 auto;
 }
 
-header {
-  background: #FFFFFF;
+header{
+	background: #FFFFFF;
 }
-
 header::after {
   content: '';
   display: table;

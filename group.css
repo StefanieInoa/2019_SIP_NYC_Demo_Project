@@ -70,3 +70,16 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+#womenlogo {
+height: 75px;
+width: 200px;
+}
+
+#head {
+height: 500px;
+width: 1000px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}

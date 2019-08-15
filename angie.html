@@ -72,7 +72,7 @@
       position: absolute;
       bottom: 8px;
       width: 100%;
-      text-align: center;
+      text-align: bottom;
     }
 
     /* Number text (1/3 etc) */
@@ -131,19 +131,19 @@
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
       <img src="newyorkmarch.jpg" style="width:100%">
-      <div class="text">New York, United States</div>
+      <div class="text"><p>New York, United States</p></div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
       <img src="londonmarch.jpg" style="width:100%">
-      <div class="text">London, England</div>
+      <div class="text"><p>London, England</p></div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
       <img src="parismarch.jpg" style="width:100%">
-      <div class="text">Paris, France</div>
+      <div class="text"><p><bottom>Paris, France</bottom></p></div>
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -151,12 +151,6 @@
 
     </div>
     <br>
-
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
 
     <script>
     var slideIndex = 1;

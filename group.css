@@ -10,9 +10,15 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
-p1{
+p {
+font-family: 'Lexend Deca', sans-serif;
 
 
+}
+h2 {
+	color: #F35193;
+	text-decoration: overline;
+	text-shadow: 2px 2px #FFCCE1;
 }
 header{
 	background: #FFFFFF;

@@ -12,13 +12,14 @@ body {
 }
 p {
 font-family: 'Lexend Deca', sans-serif;
-
+font-size: 175%;
 
 }
 h2 {
 	color: #F35193;
 	text-decoration: overline;
 	text-shadow: 2px 2px #FFCCE1;
+	font-size: 300%;
 }
 header{
 	background: #FFFFFF;

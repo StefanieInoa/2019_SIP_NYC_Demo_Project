@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang= "en">
 <style>
-  <h2>
+* {
+  box-sizing: border-box;
+}
 
-  </h2>
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 <head>
     <meta charset="utf-8"/>
@@ -32,12 +47,29 @@
 
 
 
+<img class= "march" src="house.jpg">
 
+<h1 class="gender"> The gender wage gap</h1>
 
+<p id="gap">
+  The gender pay gap is the gap between what men and women are paid. Most commonly, it refers to the median annual pay of all women who work full time and year-round, compared to the pay
+  of a similar cohort of men. Other estimates of the gender pay gap are based on weekly or hourly earnings, or are specific to a particular group
+  of women.The gender pay gap is the result of many factors, including occupational segregation, bias against working mothers, and direct paydiscrimination. Additionally, such things
+   as racial bias, disability, access to education, and age come into play. Consequently, different groups of women experience very different gaps in pay.
+</p>
+<p id="gap">
+  Here are some steps we can take to make a difference:
+  Women make up a disproportionate share of low-wage workers, and estimates show that differences between women’s and men’s occupations could account for
+  nearly one-half of the gender wage gap. Raising the minimum wage will help hardworking women better support their families. While nearly
+  two-thirds of mothers are breadwinners or co-breadwinners for their families, women made up approximately two-thirds of all minimum-wage workers in 2012.
+</p>
 
+<h1 class="gender"> Forced marriages </h1>
 
+<p id="gap">
+  <img id="arrange" src="arrange.jpg">
+Forced child marriage is a pervasive problem across the developing world that has violated the human rights of more than 60 million girls and continues to undermine global development efforts. A variety of factors contribute to the practice, including poverty, lack of education and the force of deeply-rooted tradition. Early marriage – some girls are as young as 8 – not only robs girls of their childhood, but also thwarts initiatives aimed at raising their education levels and reducing maternal mortality rates.
+</p>
 
-
-
-  </body>
-  </html>
+</body>
+</html>

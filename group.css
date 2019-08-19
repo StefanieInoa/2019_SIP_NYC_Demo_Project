@@ -15,7 +15,7 @@ font-family: 'Lexend Deca', sans-serif;
 font-size: 175%;
 
 }
-h2 {
+#mission {
 	color: #F35193;
 	text-decoration: overline;
 	text-shadow: 2px 2px #FFCCE1;
@@ -111,16 +111,11 @@ width: 200px;
 
 #gap {
 	color: #000000;
-	padding: 20px 80px 20px 80px;
-
 	font-family: 'Work Sans', sans-serif;
 	font-weight: normal;
-	border-color: #FFD1EB;
-	width:450px;
-	height:310px;
-	border-style: solid;
-  border-width: 3px;
-	display: inline-block;
+  margin-left: 310px;
+	margin-right: 350px;
+	font-size: 20px;
 }
 #wrapper {
 	display: flex;
@@ -153,4 +148,30 @@ width: 200px;
 
 #solutions {
 	font-size: 30px;
+}
+
+
+
+.womensgap{
+	display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 30%;
+}
+
+.march{
+	height: 50%;
+	width: 100%;
+}
+.gender{
+	margin-top: 70px;
+	margin-left: 300px;
+  color: #000000;
+  font-family:  'Work Sans', sans-serif;;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+#arrange {
+	float: right;
 }

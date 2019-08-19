@@ -168,7 +168,7 @@ width: 200px;
 	margin-left: 300px;
   color: #000000;
   font-family:  'Work Sans', sans-serif;;
-  font-size: 34px;
+  font-size: 42px;
   line-height: 52px;
 }
 
@@ -184,20 +184,4 @@ footer{
 p2{
 	font-family:"Lexend Deca", sans-serif;
 	font-size: 20px;
-}
-
-.edu:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-.edu:visited {
-  color: red;
-  background-color: transparent;
-  text-decoration: none;
-}
-.edu:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
 }

@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang= "en">
-<style>
-* {
-  box-sizing: border-box;
-}
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 100%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
 <head>
     <meta charset="utf-8"/>
     <link rel = "stylesheet"
       type = "text/css"
       href = "group.css" />
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      </style>
 
 </head>
 <body>
   <header>
       <div class="container">
         <h1 class="logo"></h1>
-        <img id= "womenlogo" src="project.jpg.png">
+          <a href = "angie.html"> <img id= "womenlogo" src="project.jpg.png"> </a>
         <nav>
           <ul>
             <li><a href="#">Our Mission</a></li>
-            <li><a href="#">Problems and Solutions</a></li>
-            <li><a href="#">Activists</a></li>
-            <li><a href="#">Donation</a></li>
+            <li><a href="problemsandsolution.html">Problems and Solutions</a></li>
+            <li><a href="activists.html">Activists</a></li>
+            <li><a href="donate.html">Donation</a></li>
           </ul>
         </nav>
       </div>

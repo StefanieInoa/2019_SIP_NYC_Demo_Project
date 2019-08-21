@@ -17,10 +17,14 @@ font-size: 175%;
 }
 #mission {
 	color: #F35193;
-	text-decoration: overline;
-	text-shadow: 2px 2px #FFCCE1;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 1px 1px #FFCCE1;
 	font-size: 300%;
-	font-family:
+}
+
+#miss{
+		font-family: 'Work Sans', sans-serif;
+		font-weight: normal;
 }
 header{
 	background: #FFFFFF;
